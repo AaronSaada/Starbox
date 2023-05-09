@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbox Store - Produits</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Vina+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="produits">
+
+    <header>
+        <div id="header-nav-flex">
+            <div id="logo-header">
+                <a href="#"><img src="images/Starbox.png" alt="Logo Starbox"></a>
+            </div>
+            <div id="header-pages">
+                <a href="index.html" class="hidden">Accueil</a>
+                <a href="#" class="hidden">Produits</a>
+            </div>
+            <div id="header-parametres">
+                <a href="" class="hidden"><img src="images/compte.svg" alt="Compte"></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="promotion">
+            <p>Pendant les fêtes de paques, profitez de réductions jusqu'à -50% avec le code : <span>BOXSTER</span></p>
+        </div>
+
+        <section id="section-produits">
+            
+            <div>
+                <div class="cart"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg><p id="count">0</p></div>
+            </div>
+            <div class="container">
+                <div id="root">
+                    
+                </div>
+                <div class="sidebar">
+                    <div class="head">
+                        <p>Mon panier</p>
+                    </div>
+                    <div id="cartItem">Votre panier est vide</div>
+                    <div class="foot">
+                        <h3>Total</h3>
+                        <h2 id="total">0.00 €</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section-infos-supplémentaires">
+            <div id="infos-flex">
+                <div id="infos-a-propos">
+                    <p class="titre-infos">Aide</p>
+                    <a href="#"><p>Statut de commande</p></a>
+                    <a href="#"><p>Expédition et livraison</p></a>
+                    <a href="#"><p>Retours</p></a>
+                    <a href="#"><p>Modes de paiement</p></a>
+                    <a href="#"><p>Nous contacter</p></a>
+                </div>
+                <div id="infos-aide">
+                    <p class="titre-infos">À propos</p>
+                    <a href="#"><p>CGU</p> </a>
+                    <a href="#"><p>Actalités</p></a>
+                    <a href="#"><p>Carrières</p></a>
+                    <a href="#"><p>Investisseurs</p></a>
+                    <a href="#"><p>Développement durable</p></a>
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+            <div id="infos-reseaux-sociaux">
+                <p class="titre-infos">Rejoins-nous sur les réseaux</p>
+                <div id="svg-reseaux">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/square-facebook.svg" alt=""></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="images/square-instagram.svg" alt=""></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img src="images/square-twitter.svg" alt=""></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="images/square-youtube.svg" alt=""></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <nav id="footer-nav-mobile">
+            <a href="index.html"><img src="images/accueil.svg" alt=""></a>
+            <a href="#"><img src="images/produits.svg" alt=""></a>
+            <a href="cart.html"><img src="images/panier.svg" alt=""></a>
+            <a href="payement.html"><img src="images/compte.svg" alt=""></a>
+        </nav>
+    </footer>
+    <script src="panier.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
